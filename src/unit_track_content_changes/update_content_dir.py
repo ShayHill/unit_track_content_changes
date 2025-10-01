@@ -4,19 +4,16 @@
 :created: 2025-04-01
 """
 
-import itertools as it
-
-import sys
-import subprocess
-
-from contextlib import suppress
-import shutil
-import os
-from pathlib import Path
-from collections.abc import Iterator
 import datetime
-from docx2python import docx2python
 import filecmp
+import shutil
+import subprocess
+import sys
+import tempfile
+from collections.abc import Iterator
+from pathlib import Path
+
+from docx2python import docx2python
 
 _PROJECT_DIR = Path(__file__).parents[2]
 _MANUAL_DIR = (
@@ -28,13 +25,8 @@ _MANUAL_DIR = (
     / "HSE Manual"
 )
 
-_CONTENT_DIR = _PROJECT_DIR / "history" / "docx_content"
-_CONTENT_HISTORY_DIR = _PROJECT_DIR / "history" / "docx_content_history"
-_CONTENT_CACHE_DIR = _PROJECT_DIR / "docx_content_cache"
+_HISTORY = _PROJECT_DIR / "history" / "docx_content_history"
 _CHANGELOG = _PROJECT_DIR / "output" / "changelog.txt"
-
-for dir in (_CONTENT_DIR, _CONTENT_HISTORY_DIR, _CONTENT_CACHE_DIR / _CHANGELOG):
-    assert dir.exists()
 
 
 def _gvim_diff(text_file_a: Path, text_file_b: Path) -> None:
@@ -45,79 +37,47 @@ def _gvim_diff(text_file_a: Path, text_file_b: Path) -> None:
     :raises FileNotFoundError: If either file does not exist
     """
     if not text_file_a.exists():
-        raise FileNotFoundError(f"File not found: {text_file_a}")
+        msg = f"file not found: {text_file_a}"
+        raise FileNotFoundError(msg)
     if not text_file_b.exists():
-        raise FileNotFoundError(f"File not found: {text_file_b}")
+        msg = f"file not found: {text_file_b}"
+        raise FileNotFoundError(msg)
 
     file1_path = str(text_file_a.resolve())
     file2_path = str(text_file_b.resolve())
-    subprocess.run(["gvim", "-d", file1_path, file2_path], check=True)
+    _ = subprocess.run(["gvim", "-d", file1_path, file2_path], check=True)
 
 
 def _iter_manual_files() -> Iterator[Path]:
-    for manual_file in _MANUAL_DIR.glob("HSE*.docx"):
-        yield manual_file
+    yield from _MANUAL_DIR.glob("HSE*.docx")
 
 
-def _copy_content_dir() -> Path:
-    """Copy the _CONTENT_DIR to a new folder with a timestamp."""
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    new_content_dir = _CONTENT_HISTORY_DIR / f"content_{timestamp}"
-    new_content_dir.mkdir()
-    for content_file in _CONTENT_DIR.glob("*"):
-        content_file.rename(new_content_dir / content_file.name)
-    return new_content_dir
-
-
-def _move_content_to_cache():
-    """Cache the _CONTENT_DIR to a new folder with a timestamp."""
-    with suppress(FileNotFoundError):
-        shutil.rmtree(_CONTENT_CACHE_DIR)
-    _CONTENT_CACHE_DIR.mkdir()
-    for content_file in _CONTENT_DIR.glob("*"):
-        content_file.rename(_CONTENT_CACHE_DIR / content_file.name)
-
-
-def _restore_cached_content():
-    """Restore the _CONTENT_DIR from the cache."""
-    _clear_content_dir()
-    for content_file in _CONTENT_CACHE_DIR.glob("*"):
-        content_file.rename(_CONTENT_DIR / content_file.name)
-    with suppress(FileNotFoundError):
-        shutil.rmtree(_CONTENT_CACHE_DIR)
-
-
-def _clear_content_dir():
-    """Clear the _CONTENT_DIR."""
-    for content_file in _CONTENT_DIR.glob("*"):
-        content_file.unlink()
-
-
-def _extract_file_content(manual_file: Path) -> None:
+def _extract_file_content(temp_dir: str, manual_file: Path) -> None:
     """Extract the content from a manual file."""
     with docx2python(manual_file) as doc:
         content = doc.text
-    output_file = (_CONTENT_DIR / manual_file.name).with_suffix(".txt")
+    output_file = (Path(temp_dir) / manual_file.name).with_suffix(".txt")
     with output_file.open("w") as output:
-        output.write(content)
+        _ = output.write(content)
 
 
-def _extract_hse_manual_content() -> None:
-    """Extract the content from the manual files to the _CONTENT_DIR."""
+def _extract_hse_manual_content(temp_dir: str) -> None:
+    """Extract the content from the manual files to a temporary dir."""
     for manual_file in _iter_manual_files():
-        _extract_file_content(manual_file)
+        _extract_file_content(temp_dir, manual_file)
 
 
 def _add_a_blank_entry_to_the_change_log(filename: str, msg: str = "#TODO") -> None:
-    """Add a blank entry to the change log.
+    r"""Add a blank entry to the change log.
 
     filename\ttimestamp\tcontent
     """
-    timestamp = datetime.datetime.now().strftime("%y%m%d %H:%M:%S")
+    utc = datetime.timezone.utc
+    timestamp = datetime.datetime.now(tz=utc).strftime("%Y-%m-%d_%H-%M-%S")
     entry = f"{filename}\t{timestamp}\t{msg}\n"
-    sys.stdout.write(entry)
+    _ = sys.stdout.write(entry)
     with _CHANGELOG.open("a") as changelog:
-        changelog.write(entry)
+        _ = changelog.write(entry)
 
 
 def _try_find_stem(dir_: Path, stem: str) -> Path | None:
@@ -127,48 +87,15 @@ def _try_find_stem(dir_: Path, stem: str) -> Path | None:
         return None
     try:
         (match,) = candidates  # unpack singleton
-    except ValueError:
+    except ValueError as e:
         msg = "Ambiguous state: Multiple matches for {stem} in {dir_}"
-        raise ValueError(msg)
+        raise ValueError(msg) from e
     return match
 
 
-# def collect_stems() -> set[str]:
-#     stems: set[str] = set()
-#     for dir_ in _CONTENT_HISTORY_DIR.glob("content_*"):
-#         for file in dir_.glob("*"):
-#             stems.add(file.stem)
-#     return stems
-
-
-# def strip_redundant_history():
-#     stems = collect_stems()
-#     dirs = sorted(_CONTENT_HISTORY_DIR.glob("content_*"), reverse=True)
-#     for stem in stems:
-#         matches = [_try_find_stem(dir_, stem) for dir_ in dirs]
-#         for prv, nxt in it.pairwise(matches):
-#             if prv is None:
-#                 continue
-#             if nxt is None:
-#                 continue
-#             if filecmp.cmp(prv, nxt):
-#                 print(f'unlinking {prv}')
-#                 os.unlink(prv)
-def remove_empty():
-    dirs = sorted(_CONTENT_HISTORY_DIR.glob("content_*"), reverse=True)
-    for dir_ in dirs:
-        if not list(dir_.glob("*")):
-            print(f"removing empty dir {dir_}")
-            dir_.rmdir()
-
-
-remove_empty()
-
-
-def _find_latest(name: str) -> Path | None:
-    """Search backwards through history to find the latest file with the given name."""
-    history_dirs = sorted(_CONTENT_HISTORY_DIR.glob("content_*"), reverse=True)
-    stem = Path(name).stem
+def _find_latest(stem: str) -> Path | None:
+    """Search backwards through history to find the latest file with the given stem."""
+    history_dirs = sorted(_HISTORY.glob("content_*"), reverse=True)
     for history_dir in history_dirs:
         match = _try_find_stem(history_dir, stem)
         if match is None:
@@ -176,24 +103,53 @@ def _find_latest(name: str) -> Path | None:
         if match.suffix == ".deleted":
             return None
         return match
+    return None
 
 
-def _compare_content_files(old: Path, new: Path) -> None:
-    """Compare the content files in two directories."""
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    changes = _CONTENT_HISTORY_DIR / f"content_{timestamp}"
+def _collect_stems() -> set[str]:
+    """Collect the stems of all files in the history."""
+    stems: set[str] = set()
+    for dir_ in _HISTORY.glob("content_*"):
+        for file in dir_.glob("*"):
+            stems.add(file.stem)
+    return stems
+
+
+def _collect_existing_stems() -> set[str]:
+    """List all files that SHOULD BE present in the HSE manual.
+
+    If a file is missing, mark the change that it was deleted.
+    """
+    stems = _collect_stems()
+    for stem in tuple(stems):
+        latest = _find_latest(stem)
+        if latest is None:
+            msg = "Stem {stem} is present in history but not found. This is a bug."
+            raise RuntimeError(msg)
+        if latest.suffix == ".deleted":
+            stems.remove(stem)
+    return stems
+
+
+def _compare_with_state(content_files: str) -> None:
+    """Compare content files with latest state in history."""
+    new = Path(content_files)
+    utc = datetime.timezone.utc
+    timestamp = datetime.datetime.now(tz=utc).strftime("%Y-%m-%d_%H-%M-%S")
+    changes = _HISTORY / f"content_{timestamp}"
     for new_file in new.glob("*"):
-        old_file = _find_latest(new_file.name)
+        old_file = _find_latest(new_file.stem)
         if old_file is None:
             _add_a_blank_entry_to_the_change_log(new_file.stem, "file added")
             changes.mkdir(exist_ok=True)
-            shutil.copy(new_file, changes / new_file.name)
+            _ = shutil.copy(new_file, changes / new_file.name)
         elif not filecmp.cmp(old_file, new_file):
             _add_a_blank_entry_to_the_change_log(old_file.stem)
             changes.mkdir(exist_ok=True)
-            shutil.copy(new_file, changes / new_file.name)
+            _ = shutil.copy(new_file, changes / new_file.name)
             _gvim_diff(new_file, old_file)
-    old_stems = {x.stem for x in _CONTENT_CACHE_DIR.glob("*")}
+
+    old_stems = _collect_existing_stems()
     new_stems = {x.stem for x in new.glob("*")}
     for name in old_stems - new_stems:
         _add_a_blank_entry_to_the_change_log(name, "file removed")
@@ -201,21 +157,12 @@ def _compare_content_files(old: Path, new: Path) -> None:
         (changes / name).with_suffix(".deleted").touch()
 
 
-def main():
-    cache = _move_content_to_cache()
-
-    # If *anything* goes wrong, restore the old content. Most likely, a file was open
-    # in Word and the extraction blew up due to a permission error.
-    try:
-        _extract_hse_manual_content()
-    except Exception as e:
-        sys.stdout.write(f"Error extracting content: {e}. Restoring state.\n")
-        _restore_cached_content()
-
-    _compare_content_files(_CONTENT_CACHE_DIR, _CONTENT_DIR)
+def main() -> None:
+    """Identify and record changes to the HSE manual content."""
+    with tempfile.TemporaryDirectory() as temp_dir:
+        _extract_hse_manual_content(temp_dir)
+        _compare_with_state(temp_dir)
 
 
 if __name__ == "__main__":
-    # _move_content_to_cache()
-    # _restore_cached_content()
     main()
