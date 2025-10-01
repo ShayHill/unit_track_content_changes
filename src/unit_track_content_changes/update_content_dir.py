@@ -18,14 +18,24 @@ import datetime
 from docx2python import docx2python
 import filecmp
 
-_MANUAL_DIR = Path(__file__).parents[1]
-_CONTENT_DIR = Path(__file__).parent / "docx_content"
-_CONTENT_HISTORY_DIR = Path(__file__).parent / "docx_content_history"
-_CONTENT_CACHE_DIR = Path(__file__).parent / "docx_content_cache"
-_CHANGELOG = Path(__file__).parent / "changelog.txt"
+_PROJECT_DIR = Path(__file__).parents[2]
+_MANUAL_DIR = (
+    Path.home()
+    / "OneDrive"
+    / "Foundation Safety"
+    / "clients"
+    / "Unit Drilling"
+    / "HSE Manual"
+)
 
-for dir in (_CONTENT_DIR, _CONTENT_HISTORY_DIR):
-    dir.mkdir(exist_ok=True)
+_CONTENT_DIR = _PROJECT_DIR / "history" / "docx_content"
+_CONTENT_HISTORY_DIR = _PROJECT_DIR / "history" / "docx_content_history"
+_CONTENT_CACHE_DIR = _PROJECT_DIR / "docx_content_cache"
+_CHANGELOG = _PROJECT_DIR / "output" / "changelog.txt"
+
+for dir in (_CONTENT_DIR, _CONTENT_HISTORY_DIR, _CONTENT_CACHE_DIR / _CHANGELOG):
+    assert dir.exists()
+
 
 def _gvim_diff(text_file_a: Path, text_file_b: Path) -> None:
     """Open Vim in diff mode to compare two files.
@@ -42,6 +52,7 @@ def _gvim_diff(text_file_a: Path, text_file_b: Path) -> None:
     file1_path = str(text_file_a.resolve())
     file2_path = str(text_file_b.resolve())
     subprocess.run(["gvim", "-d", file1_path, file2_path], check=True)
+
 
 def _iter_manual_files() -> Iterator[Path]:
     for manual_file in _MANUAL_DIR.glob("HSE*.docx"):
@@ -108,17 +119,19 @@ def _add_a_blank_entry_to_the_change_log(filename: str, msg: str = "#TODO") -> N
     with _CHANGELOG.open("a") as changelog:
         changelog.write(entry)
 
+
 def _try_find_stem(dir_: Path, stem: str) -> Path | None:
     """Try to find a file with the given stem in the given directory."""
-    candidates = list(dir_.glob(f'{stem}.*'))
+    candidates = list(dir_.glob(f"{stem}.*"))
     if not candidates:
         return None
     try:
-        match, = candidates  # unpack singleton
+        (match,) = candidates  # unpack singleton
     except ValueError:
         msg = "Ambiguous state: Multiple matches for {stem} in {dir_}"
         raise ValueError(msg)
     return match
+
 
 # def collect_stems() -> set[str]:
 #     stems: set[str] = set()
@@ -126,6 +139,7 @@ def _try_find_stem(dir_: Path, stem: str) -> Path | None:
 #         for file in dir_.glob("*"):
 #             stems.add(file.stem)
 #     return stems
+
 
 # def strip_redundant_history():
 #     stems = collect_stems()
@@ -143,11 +157,13 @@ def _try_find_stem(dir_: Path, stem: str) -> Path | None:
 def remove_empty():
     dirs = sorted(_CONTENT_HISTORY_DIR.glob("content_*"), reverse=True)
     for dir_ in dirs:
-        if not list(dir_.glob('*')):
-            print(f'removing empty dir {dir_}')
+        if not list(dir_.glob("*")):
+            print(f"removing empty dir {dir_}")
             dir_.rmdir()
 
+
 remove_empty()
+
 
 def _find_latest(name: str) -> Path | None:
     """Search backwards through history to find the latest file with the given name."""
@@ -157,17 +173,16 @@ def _find_latest(name: str) -> Path | None:
         match = _try_find_stem(history_dir, stem)
         if match is None:
             continue
-        if match.suffix == '.deleted':
+        if match.suffix == ".deleted":
             return None
         return match
-
 
 
 def _compare_content_files(old: Path, new: Path) -> None:
     """Compare the content files in two directories."""
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     changes = _CONTENT_HISTORY_DIR / f"content_{timestamp}"
-    for new_file in new.glob('*'):
+    for new_file in new.glob("*"):
         old_file = _find_latest(new_file.name)
         if old_file is None:
             _add_a_blank_entry_to_the_change_log(new_file.stem, "file added")
@@ -178,12 +193,12 @@ def _compare_content_files(old: Path, new: Path) -> None:
             changes.mkdir(exist_ok=True)
             shutil.copy(new_file, changes / new_file.name)
             _gvim_diff(new_file, old_file)
-    old_stems = {x.stem for x in _CONTENT_CACHE_DIR.glob('*')}
-    new_stems = {x.stem for x in new.glob('*')}
+    old_stems = {x.stem for x in _CONTENT_CACHE_DIR.glob("*")}
+    new_stems = {x.stem for x in new.glob("*")}
     for name in old_stems - new_stems:
         _add_a_blank_entry_to_the_change_log(name, "file removed")
         changes.mkdir(exist_ok=True)
-        (changes / name).with_suffix('.deleted').touch()
+        (changes / name).with_suffix(".deleted").touch()
 
 
 def main():
@@ -201,7 +216,6 @@ def main():
 
 
 if __name__ == "__main__":
-    pass
     # _move_content_to_cache()
     # _restore_cached_content()
     main()

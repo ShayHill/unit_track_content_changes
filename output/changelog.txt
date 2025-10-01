@@ -173,4 +173,3 @@ HSE - well_control	250930 20:10:51	file added
 HSE - working_at_height-justification_mud_pit_handrails	250930 20:10:51	file added
 HSE - working_at_height	250930 20:10:51	file added
 HSE - work_permit	250930 20:10:51	file added
-HSE - bloodborne_pathogen_exposure_control	250930 20:27:56	#TODO
