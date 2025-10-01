@@ -1,0 +1,114 @@
+----Image alt text---->Unit Drilling Company logo<----media/image1.png----
+
+Hydrogen Sulfide and Facial Hair
+
+
+
+Policy
+
+
+
+All Drilling Sites
+
+
+
+All drilling sites will have a fixed H2S monitoring system.
+
+
+
+H2S alarms will meet the requirements of <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.165">29 CFR 1910.165(b)</a>.
+
+
+
+H2S alarms will be set to alarm at 10ppm.
+
+
+
+Install windsocks that are clearly visible to all personnel on location.
+
+
+
+Sites Suspected to Contain H2S
+
+
+
+Personnel will wear a personal H2s monitor.
+
+
+
+Personnel will complete a documented annual H2S training course.
+
+
+
+Mark site access points to warn personnel of potential H2S exposure.
+
+
+
+Personnel will be supplied with supplied-air respirators. These will meet the requirement of <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134">29 CFR 1910.134(d)(2) Respirators for IDLH atmospheres</a>.
+
+
+
+Respirators
+
+
+
+The client or operator will supply and maintain supplied-air respirators for drilling operations. For any supplied-air respirators owned by Unit Drilling:
+
+
+
+Inspect supplied-air respirators monthly.
+
+--	Inspect air cylinders monthly.
+
+--	Store in designated storage containers.
+
+--	Keep fully charged and ready if intended for emergency use.
+
+
+
+Facial Hair
+
+
+
+Personnel who are
+
+
+
+--	Essential to rig operations; and
+
+--	foreseeably expected to wear a face mask
+
+
+
+will be clean shaven where the face mask would seal against the face.
+
+
+
+Working Around H2S
+
+
+
+Unit Drilling personnel will not enter a confined space with > 0 ppm H2S.
+
+
+
+Unit Drilling personnel will not work in any atmosphere greater than 0 and <10ppm for more than 30 minutes without a supplied-air breathing apparatus meeting the requirements of <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134">29 CFR 1910.134(d)(2) Respirators for IDLH atmospheres</a>.
+
+
+
+Unit Drilling personnel will not work in any atmosphere >10 ppm H2S without a supplied-air breathing apparatus meeting the requirements of 29 CFR 1910.134(d)(2) Respirators for IDLH atmospheres.
+
+
+
+Unit Drilling personnel will not work in any atmosphere >50ppm H2S.
+
+Page 2 of 2
+
+
+
+
+
+
+
+
+

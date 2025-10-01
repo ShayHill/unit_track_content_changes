@@ -1,0 +1,167 @@
+----Image alt text---->Unit Drilling Company logo<----media/image1.png----
+
+Hazard Communication
+
+
+
+Policy
+
+
+
+A Hazardous Chemical is any chemical classified as a *physical hazard, *health hazard, *simple asphyxiant, *combustible dust, *pyrophoric gas, or *hazard not otherwise classified.
+
+
+
+* see <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200">OSHA 1910.1200(c)</a> for clarification on these terms.
+
+
+
+Consumer Products
+
+
+
+Per the Consumer Product Safety Act, this standard does not apply to consumer products used in the same manner a consumer would use them: dishwashing soap, laundry detergent, household cleaning supplies, etc.
+
+
+
+There is one exception: requirements under the subheading Temporary Labelling below do apply to consumer products.
+
+
+
+Right to Know
+
+
+
+Unit Drilling will ensure all personnel at Unit Drilling sites have received information and training on hazardous chemicals to which they may be exposed. Subcontractors bringing hazardous chemicals onsite will provide all necessary information on those chemicals to meet this standard.
+
+
+
+This training will conform to <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200">29 CFR 1910.1200(h)</a>.
+
+
+
+Verification of third-party training meets this requirement except for the location of site-specific HAZCOM documentation:
+
+
+
+--	Hazardous chemicals to which personnel might be exposed
+
+--	site Safety Data Sheet access
+
+--	this Hazard Communication standard
+
+--	information about hazardous materials to which personnel may be exposed
+
+
+
+Personnel will receive this information at or prior to site orientation.
+
+
+
+Safety Data Sheets and Chemical Inventories
+
+
+
+The Rig Manager or Facility Manger will maintain a file of Safety Data Sheets for all hazardous chemicals to which personnel may be exposed. This file will be available for personnel to review at any time. An electronic file meets this requirement if personnel have immediate access, even in a temporary power failure.
+
+
+
+Treat Safety Data Sheets and facility chemical inventories as employee exposure records per 29 CFR 1910.1020(d)(1)(ii). I.e., maintain these sheets and chemical inventories for 30 years.
+
+
+
+Labeling
+
+
+
+Unit Drilling will only accept hazardous-chemical shipments that are correctly labeled:
+
+--	Manufacturer or importer label is present
+
+--	Label conforms to the <a href="https://www.un-ilibrary.org/content/books/9789210052139c005/read">Globally Harmonized System of Classification and Labeling of Chemicals (GHS)</a>
+
+--	Label is written in English and, where applicable, the dominant local language
+
+--	Label contains product identifier; signal word; hazard statement; pictogram; precautionary statement; name, address, and phone number of the responsible party
+
+
+
+Do not remove or deface labels until a container has been emptied, cleaned, and neutralized.
+
+
+
+Label chemical dispensing units with at least
+
+
+
+--	Product Identifier
+
+--	Hazard Warnings
+
+--	Contact Information for the supplier
+
+--	Note: This information can all be found on the Safety Data Sheet.
+
+
+
+Temporary Labeling
+
+
+
+If you put consumer products in anything other than their supplied containers (for instance, a spray bottle), mark that container with a clear indication of the contents. If in doubt, use the product identifier from the Safety Data Sheet.
+
+
+
+Label other chemicals with GHS-compliant labels.
+
+
+
+Clean and neutralize the container before removing the label.
+
+
+
+It is not necessary to label buckets, shovels, scoops, etc. if the chemicals are immediately used and the containers immediately cleaned and neutralized.
+
+
+
+Procedure
+
+
+
+New Hazardous Chemicals
+
+
+
+For any chemical we might use that is not on the approved chemicals list.
+
+
+
+1)	The Procurement Manager, HSE Manager, Rig Superintendent, or Rig Manager will
+
+	a)	Initiate an MOC before any potential exposure could occur.
+
+2)	The HSE Manager will
+
+	a)	Add the chemical to the company-wide approved chemicals list.
+
+3)	The Rig Manager will
+
+	a)	Review Safety Data Sheets for any new chemicals introduced to the worksite.
+
+	b)	Inform or train personnel on the hazards of these chemicals before any exposure could occur.
+
+Page 2 of 2
+
+
+
+
+
+
+
+footnote1)	
+
+
+
+
+
+endnote1)	

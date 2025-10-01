@@ -1,0 +1,176 @@
+manual	250401 18:05:56	downloaded from KPA and initial cache created.
+HSE - bloodborne_pathogen_exposure_control	250401 18:59:06	remove extra numbering text in footer
+HSE - cpr_and_first_aid_preparedness	250401 19:06:51	remove extra numbering text in footer
+HSE - emergency_response_plan	250401 19:06:51	remove extra numbering text in footer
+HSE - fire_prevention_and_control	250401 19:06:51	remove extra numbering text in footer
+HSE - forklifts_and_mobile_elevated_work_platforms	250401 19:06:51	remove extra numbering text in footer
+HSE - hoists	250401 19:06:51	remove extra numbering text in footer
+HSE - hot_work	250401 19:06:51	remove extra numbering text in footer
+HSE - incident_investigation	250401 19:06:51	remove extra numbering text in footer
+HSE - job_safety_analysis	250401 19:06:51	remove extra numbering text in footer
+HSE - ladder_safety	250401 19:06:51	remove extra numbering text in footer
+HSE - life_threatening_weather	250401 19:06:51	remove extra numbering text in footer
+HSE - lockout_tagout	250401 19:06:51	remove extra numbering text in footer
+HSE - new_employee_and_visitor_orientation	250401 19:06:51	remove extra numbering text in footer
+HSE - safety_meetings	250401 19:06:51	remove extra numbering text in footer
+HSE - safety_signs	250401 19:06:51	remove extra numbering text in footer
+HSE - stop_work_authority	250401 19:06:51	remove extra numbering text in footer
+HSE - working_at_height	250401 19:06:51	remove extra numbering text in footer
+HSE - manual_handling	250401 19:18:10	forbid carrying two-handed loads on stairs
+HSE - fire_prevention_and_control	250401 19:24:01	clarify that vaping is only allowed in designated smoking areas
+HSE - new_employee_and_visitor_orientation	250401 19:24:01	clarify that vaping is only allowed in designated smoking areas
+HSE - personal_protective_equipment	250401 19:36:37	forbid metal and cowboy-hat hardhats
+HSE - personal_protective_equipment	250401 19:46:04	allow chemical and welding gloves
+HSE - cpr_and_first_aid_preparedness	250402 18:06:23	minor formatting changes
+HSE - ladder_safety	250402 18:06:24	minor formatting changes
+HSE - blowout_prevention_equipment	250402 18:23:00	require snub lines on flexible pressured lines
+HSE - hand_tools	250402 18:23:00	forbid tying down tool triggers
+HSE - bloodborne_pathogen_exposure_control	250408 13:36:48	link kpa references to kpa
+HSE - contraband_and_drugs	250408 13:36:48	link kpa references to kpa
+HSE - cpr_and_first_aid_preparedness	250408 13:36:48	link kpa references to kpa
+HSE - fire_prevention_and_control	250408 13:36:48	link kpa references to kpa
+HSE - forklifts_and_mobile_elevated_work_platforms	250408 13:36:48	link kpa references to kpa
+HSE - general_fleet_safety	250408 13:36:48	link kpa references to kpa
+HSE - incident_investigation	250408 13:36:48	link kpa references to kpa
+HSE - incident_reporting	250408 13:36:48	link kpa references to kpa
+HSE - job_safety_analysis	250408 13:36:48	link kpa references to kpa
+HSE - life_threatening_weather	250408 13:36:48	link kpa references to kpa
+HSE - new_employee_and_visitor_orientation	250408 13:36:48	link kpa references to kpa
+HSE - rig_safety_inspections	250408 13:36:48	link kpa references to kpa
+HSE - safety_meetings	250408 13:36:48	link kpa references to kpa
+HSE - safety_signs	250408 13:36:48	link kpa references to kpa
+HSE - stop_work_authority	250408 13:36:48	link kpa references to kpa
+HSE - work_permit	250408 13:36:48	link kpa references to kpa
+HSE - confined_space_entry	250408 13:36:48	file added
+HSE - confined_space_entry_gas_log	250408 13:36:48	file added
+HSE - confined_space_entry	250408 13:43:30	add kpa link to gas log
+HSE - mud_pumps_and_equipment	250408 14:34:17	do not mix other chems in caustic barrel
+HSE - personal_protective_equipment	250408 14:34:17	add small requirements from NET workbook
+HSE - working_at_height	250408 14:34:17	dispose of equipment after shock loading
+HSE - new_employee_and_visitor_orientation	250428 18:10:40	differentiate between green hard hats and "new experienced" hard hat stickers
+HSE - cell_phones_and_peds	250428 18:32:36	file added
+HSE - personal_protective_equipment	250428 18:53:00	spelling and formatting
+HSE - hoists	250428 18:58:32	do not raise an lower loads to/from the catwals with personnel in the area
+HSE - hoists	250428 19:01:55	specify that the rig manager will remain on the floor during personnel hoisting at night
+HSE - hoists	250428 19:04:40	do not hoist personnel with the block in motion
+HSE - hot_work	250428 19:16:03	spelling and formatting
+HSE - blowout_prevention_equipment	250428 19:25:00	tighten bop nuts till at least a full thread is showing
+HSE - cell_phones_and_peds	250520 12:39:17	allow drillers and assistant drillers to carry phones
+HSE - personal_protective_equipment	250520 12:39:17	add temporary work areas to the definition of "workspace"
+HSE - personal_protective_equipment	250520 12:48:26	require goggles and face shields for soaps, solvents, fuels
+HSE - personal_protective_equipment	250520 13:04:55	only use rollers to paint in enclosed spaces
+HSE - hoists	250601 15:15:34	clarify tagline use requirements
+HSE - hand_tools	250601 16:04:01	add cheater-bar requirements
+HSE - pipe_racks_and_bins	250601 16:04:01	forbid lever and chain-style binders
+HSE - grounding_and_bonding	250603 17:09:10	3-prong cords. no pigtails.
+HSE - fire_prevention_and_control	250604 14:56:08	specify smoking area rule applies to rig up / down
+HSE - cell_phones_and_peds	250630 14:56:24	clarify that earbuds are not allowed in workspaces, on duty or not
+HSE - hoists	250630 15:25:17	require a tension-limiter device for personnel hoisting
+HSE - blowout_prevention_equipment	250630 18:59:01	update nippleing up to nippling up
+HSE - hand_tools	250630 18:59:01	forbid tape around wooden handles
+HSE - pipe_racks_and_bins	250818 18:36:34	maintain a 50-foot distance
+HSE - pressure_testing	250818 20:33:37	file added
+HSE - hoists	250822 09:06:58	use a tail rope OR TAG LINE to control loads throught the v-door
+HSE - hot_work	250822 09:06:58	add missing spaces
+HSE - cpr_and_first_aid_preparedness	250902 17:07:15	spelling, grammar, formatting
+HSE - incident_reporting	250902 17:07:15	the HSE manager (prevously the Rig Manager) will accompany personnel for off-site medical treatment
+HSE - incident_reporting	250902 17:19:54	contact the rig manager before
+seeking medical attention, even if offsite
+HSE - personal_protective_equipment	250902 17:19:54	Unit will provide foam earplugs
+HSE - personal_protective_equipment	250902 17:22:55	Unit will provide earmuffs in high-noise areas
+HSE - personal_protective_equipment	250902 17:29:47	Unit will provide N95 dust masks for voluntary use
+HSE - general_fleet_safety	250902 18:51:37	back in at well sites and park away from the wellbore
+HSE - general_fleet_safety	250902 18:53:53	do not use your cell phone while refueling
+HSE - hoists	250903 19:57:09	change signalperson to flagman
+HSE - fire_prevention_and_control	250903 20:01:21	#TODO
+HSE - hoists	250903 20:01:21	do not store flammables in the engine house
+HSE - hot_work	250903 20:06:39	bring a spare fire exinguisher if working more than 50 feet from a mounted fire extinguisher
+HSE - hot_work	250903 20:09:03	firewatch will remain in communication range with those performing hot work
+HSE - hot_work	250903 20:11:37	firewatch will remain as long as necessary (at least 30 minutes) after hot work is complete
+HSE - hot_work	250903 20:12:49	firewatch will perform no other duties
+HSE - pipe_racks_and_bins	250903 20:17:11	do not stand on a truckload or trailer load of tubulars
+HSE - pipe_racks_and_bins	250903 20:20:57	specify safe distance as the longer of 30 feet or length of tubular
+HSE - pipe_racks_and_bins	250903 20:20:57	do not double stack tubulars on the catwalk
+HSE - pipe_racks_and_bins	250903 20:20:57	change "pipe handler" to "catwalk"
+HSE - pipe_racks_and_bins	250903 20:26:33	stand at least 30 feet from the forklift when the forklift is handling tubulars
+HSE - hoists	250904 15:23:07	use a flagman or two-way communication when personnel lifting
+HSE - pipe_racks_and_bins	250904 15:23:07	buffer zone of 30 feet or length of tubular, whichever is greater
+HSE - forklifts_and_mobile_elevated_work_platforms	250904 15:55:11	do not take forklift offsite of lift cars without permission
+HSE - mud_pumps_and_equipment	250904 16:14:31	perform LO/TO on pressurized systems
+HSE - hand_tools	250904 16:18:47	do not use the pressure washer to clean clothing or boots while you are wearing them
+HSE - rigging up and down	250904 18:26:00	file added
+HSE - forklifts_and_mobile_elevated_work_platforms	250904 18:51:14	do not operate equipment within 10 feet of overhead power lines
+HSE - rigging up and down	250904 18:51:14	only qualified personnel will operate cranes, cherry pickers, and other non-standard rig heavy equipment
+HSE - hoists	250904 18:55:41	do not ride a hoisted load
+HSE - rigging up and down	250904 19:27:48	open the breaker before removing a plug from a wire
+HSE - personal_protective_equipment	250930 16:20:55	merge language from NET workbook. No requirement changes.
+HSE - working_at_height	250930 16:26:09	update "qualified" to "trained"
+HSE - rigging up and down	250930 16:28:08	remove reference to cherry pickers
+HSE - forklifts_and_mobile_elevated_work_platforms	250930 17:14:18 specify that the RM will assign an evaluator
+HSE - light plants	250930 17:21:40	file added
+HSE - lockout_tagout	250930 17:37:49	only site supervisors and licensed contractors can work on electrical equipment
+HSE - bloodborne_pathogen_exposure_control	250930 17:56:30	#TODO
+HSE - bloodborne_pathogen_exposure_control	250930 19:01:36	#TODO
+HSE - bloodborne_pathogen_exposure_control	250930 19:29:51	#TODO
+HSE - bloodborne_pathogen_exposure_control	250930 19:35:57	#TODO
+HSE - bloodborne_pathogen_exposure_control	250930 19:39:47	#TODO
+HSE - bloodborne_pathogen_exposure_control	250930 19:42:52	#TODO
+HSE - bloodborne_pathogen_exposure_control	250930 19:45:01	#TODO
+HSE - bloodborne_pathogen_exposure_control	250930 19:46:26	#TODO
+HSE - air_operated_equipment	250930 20:10:47	file added
+HSE - bloodborne_pathogen_exposure_control	250930 20:10:47	file added
+HSE - blowout_prevention_equipment	250930 20:10:47	file added
+HSE - cell_phones_and_peds	250930 20:10:47	file added
+HSE - confined_space_entry	250930 20:10:47	file added
+HSE - confined_space_entry_gas_log	250930 20:10:48	file added
+HSE - contraband_and_drugs	250930 20:10:48	file added
+HSE - cpr_and_first_aid_preparedness	250930 20:10:48	file added
+HSE - emergency_response_plan	250930 20:10:48	file added
+HSE - emergency_response_plan_template	250930 20:10:48	file added
+HSE - exception_mangement	250930 20:10:48	file added
+HSE - fire_prevention_and_control	250930 20:10:48	file added
+HSE - forklifts_and_mobile_elevated_work_platforms	250930 20:10:48	file added
+HSE - general_fleet_safety	250930 20:10:48	file added
+HSE - grounding_and_bonding	250930 20:10:48	file added
+HSE - hand_tools	250930 20:10:48	file added
+HSE - hazard_communication	250930 20:10:48	file added
+HSE - hoists	250930 20:10:48	file added
+HSE - hot_work	250930 20:10:48	file added
+HSE - housekeeping	250930 20:10:49	file added
+HSE - hydrogen_sulfide_and_facial_hair	250930 20:10:49	file added
+HSE - incident_investigation	250930 20:10:49	file added
+HSE - incident_reporting	250930 20:10:49	file added
+HSE - job_safety_analysis-prompt_card	250930 20:10:49	file added
+HSE - job_safety_analysis	250930 20:10:49	file added
+HSE - ladder_safety-ladder_inspection_prompt	250930 20:10:49	file added
+HSE - ladder_safety	250930 20:10:49	file added
+HSE - life_threatening_weather-post_evacuation_inspection	250930 20:10:49	file added
+HSE - life_threatening_weather	250930 20:10:49	file added
+HSE - light plants	250930 20:10:49	file added
+HSE - lockout_tagout	250930 20:10:49	file added
+HSE - management_of_change	250930 20:10:49	file added
+HSE - manual_handling	250930 20:10:49	file added
+HSE - masts_and_substructures	250930 20:10:49	file added
+HSE - mud_pumps_and_equipment	250930 20:10:50	file added
+HSE - new_employee_and_visitor_orientation	250930 20:10:50	file added
+HSE - non_crane_rigging	250930 20:10:50	file added
+HSE - personal_protective_equipment	250930 20:10:50	file added
+HSE - pipe_racks_and_bins	250930 20:10:50	file added
+HSE - pipe_tongs_and_lines	250930 20:10:50	file added
+HSE - pressure_testing	250930 20:10:50	file added
+HSE - pre_use_inspection	250930 20:10:50	file added
+HSE - pulling_out_of_the_hole	250930 20:10:50	file added
+HSE - rigging up and down	250930 20:10:50	file added
+HSE - rig_safety_inspections	250930 20:10:50	file added
+HSE - rotary_table_area	250930 20:10:50	file added
+HSE - safety_meetings	250930 20:10:50	file added
+HSE - safety_signs	250930 20:10:50	file added
+HSE - sanitation_and_hygiene	250930 20:10:51	file added
+HSE - stop_work_authority	250930 20:10:51	file added
+HSE - testing_live_equipment	250930 20:10:51	file added
+HSE - training_verification	250930 20:10:51	file added
+HSE - well_control	250930 20:10:51	file added
+HSE - working_at_height-justification_mud_pit_handrails	250930 20:10:51	file added
+HSE - working_at_height	250930 20:10:51	file added
+HSE - work_permit	250930 20:10:51	file added
+HSE - bloodborne_pathogen_exposure_control	250930 20:27:56	#TODO

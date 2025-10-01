@@ -1,0 +1,56 @@
+----Image alt text---->Unit Drilling Company logo<----media/image1.png----
+
+Blowout Prevention Equipment
+
+
+
+Policy
+
+
+
+Tighten BOP nuts until at least one full thread of the bolt or stud is showing on the side of the nut opposite the bolt head or stud attachment.
+
+
+
+Nippling Up and Down
+
+
+
+--	Do not climb on BOP components until they are set and bolted.
+
+--	Only torque or break BOP bolts with closed-socket hammer wrenches or hydraulic equipment.
+
+--	Bleed all hydraulic lines to zero before breaking any unions.
+
+--	Do not lift BOP Equipment over 25,000 pounds with chain or wire-rope slings, even if they are rated for the weight of the BOP Equipment.
+
+--	Install a safety guard or latch over the accumulator blind-ram control.
+
+
+
+In Use
+
+
+
+--	When the rams are closed, leave the controls in the closed position. Tag out the driller’s controls to indicate that the rams are in the closed position.
+
+--	When using a circulating head, do not use dresser sleeves on mud return lines or gas control systems.
+
+--	Keep all flanges, including flow lines and separators, fully bolted.
+
+--	Label all controls on the BOP accumulator.
+
+--	Label all controls on the BOP remote.
+
+--	Use a snub line on all flexible pressured mud lines.
+
+Page 2 of 2
+
+
+
+
+
+
+
+
+

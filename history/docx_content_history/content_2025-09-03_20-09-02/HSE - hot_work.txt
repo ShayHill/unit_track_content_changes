@@ -1,0 +1,142 @@
+
+
+----Image alt text---->Unit Drilling Company logo<----media/image1.png----
+
+
+
+Hot Work
+
+
+
+Policy
+
+
+
+Only qualified welders will operate welding equipment.
+
+
+
+Only qualified personnel will perform atmospheric tests or atmospheric monitoring.
+
+
+
+Hot work includes welding, chipping, burning, heating, grinding, abrasive blasting, brazing, soldering, any spark-producing activity, and any activity with the potential to start a fire or ignite an atmosphere.
+
+
+
+Hot work is treated as “high potential”
+
+
+
+within 150 radial feet of the well head
+
+inside any permit-controlled confined space
+
+where a flammable or toxic atmosphere may exist or develop
+
+where there is potential for a moderate to severe fire
+
+
+
+Complete the “high potential” procedure before hot work in a confined space or within 150 radial feet of the well head. High-potential hot work requires a <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d4">Work Permit</a>.
+
+
+
+For work outside confined spaces and outside 150 radial feet of the well head, the driller or assistant driller will determine if hot work is “high potential”.
+
+
+
+If performing hot work more than 50 feet from a mounted fire extinguisher, bring a spare extinguisher to the worksite.
+
+
+
+Procedure
+
+
+
+High Potential
+
+
+
+1)	The person requesting the <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d4">Work Permit</a> will
+
+	a)	Specify the exact fire-response and personal protective equipment to be used on the <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d2">Job Safety Analysis</a> to be submitted with the Work Permit.
+
+	b)	Submit a pre-job atmospheric test for authorization with the <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d4">Work Permit</a>
+
+		--	Perform tests in this order.
+
+		--	Oxygen: greater than 19.5% and less than 23.5%
+
+		--	Flammable gases and vapors: < 0%
+
+		--	Hydrogen Sulfide: < 10 ppm
+
+		--	Carbon Monoxide: < 35 ppm
+
+2)	The Permit Authorized Person will
+
+	a)	Assign a fire watch. This duty can be reassigned as the job progresses.
+
+	b)	Where possible, remove all combustible materials within 30 radial feet at or below the hot work.
+
+	c)	Where combustible materials cannot be removed, cover combustible materials with fire-retardant blankets or shields.
+
+3)	The Fire Watch will
+
+	a)	Continuously monitor the hot work and potentially affected areas.
+
+	b)	Remain at the work site 30 minutes after the hot work is complete.
+
+
+
+Low Potential
+
+
+
+1)	Work crews will
+
+	a)	Specify the exact fire-response and personal protective equipment to be used on the Job Safety Analysis.
+
+2)	The Driller or Assistant Driller will
+
+	a)	Determine if the hot work is “high potential”.
+
+	b)	Determine if a fire watch is required.
+
+	c)	Sign the <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d2">Job Safety Analysis</a>.
+
+3)	The Fire Watch (if required) will
+
+	a)	Continuously monitor the hot work and potentially affected areas.
+
+	b)	Remain at the work site 30 minutes after the hot work is complete.
+
+
+
+Safe Welding Areas
+
+
+
+1)	The Rig or Facility Manager will
+
+	a)	Designate, record, and mark the locations of Safe Welding Areas.
+
+2)	Work crews will
+
+	a)	Specify the exact fire-response and personal protective equipment to be used on the <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d2">Job Safety Analysis</a>.
+
+
+
+Page 2 of 2
+
+
+
+
+
+
+
+
+
+
+

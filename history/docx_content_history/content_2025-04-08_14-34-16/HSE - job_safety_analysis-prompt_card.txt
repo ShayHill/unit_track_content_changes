@@ -1,0 +1,142 @@
+----Image alt text---->Unit Drilling Company logo<----media/image1.png----
+
+Job Safety Assessment Prompts
+
+
+
+Identify Job Steps:
+
+
+
+Contact Rig Superintendent
+
+
+
+structure removal, bypassing engineered safety controls
+
+
+
+Permit Required
+
+
+
+confined space entry, electrical or equipment isolation, hot work within 150’ radial feet of the wellhead
+
+
+
+Qualified Personnel Only
+
+
+
+forklift, explosives, radioactive, caustic, cutting, welding, well control, working at height, confined space entry, forklift, lifting and rigging, giving or receiving hand signals, scaffolding, equipment maintenance beyond inspection and lubrication
+
+
+
+Control Risk When
+
+
+
+manual handling, using hand and power tools, walking on slippery or uneven surfaces, using sharp tools, mixing chemicals, operating equipment, lubrication and maintenance, handling tubulars, opening and closing valves, climbing ladders, driving, using remotes
+
+
+
+Identify Risks
+
+
+
+Contact Rig Superintendent
+
+
+
+toxic or flammable atmospheres, working with damaged or altered equipment, deviation from procedures
+
+
+
+Qualified Personnel Only
+
+
+
+asphyxiation, burns, fire, explosion, drowning, electrical shock, radiation, loss of containment, stored energy, falling, stored energy
+
+
+
+Control These Risks
+
+
+
+pinch or crush points, slips, trips, falls, cuts, abrasion, skin irritation, poor lighting, bad weather, extreme temperatures, fatigue, entanglement, loss of grip, dropped objects, poor housekeeping, inexperienced personnel, simultaneous operations, line of fire, struck by, equipment failure, damaged tools, potential to block escape routes, pests and wildlife, struck by vehicles, dust, working alone, splashes, potential for damaged equipment, unfamiliar job steps, distraction, unfamiliar tools, complex instructions, working with third parties, delayed maintenance, hole conditions
+
+
+
+Control Risks
+
+
+
+Qualified Personnel Only
+
+
+
+gas monitoring, equipment isolation, fire watch, confined-space attendant, personal fall arrest system, fire extinguisher, rescue equipment, securing tools at height
+
+
+
+Look for Opportunities to Apply
+
+
+
+additional supervision, equipment inspection, specialized ppe, designated hand placement, designated escape routes, previous JSAs, procedure review, dollies and carts, scheduled breaks, spill response materials, hands-free lifting, reduced personnel, housekeeping, “walk the carry”, hydration at the worksite, hard barriers and barrier tape, access control, hearing protection, additional lighting, gathering tools before the job, work layout, buddy system, job scheduling, accountability for job steps, safety data sheets, job rotation, rescue planning, review techniques before the job, cocoa mats, assigned safety monitors, respiratory protection, radio communication, whip checks, pressure monitoring, line of site, stop work authority, safety data sheets
+
+
+
+Verbal JSA
+
+
+
+For every job, every time:
+
+
+
+--	Wear standard PPE (gloves, hard hat, safety glasses, and safety-toed boots).
+
+--	Inspect tools and equipment before the job.
+
+--	Review applicable Safety Data Sheets.
+
+--	Walk every carry. Before manually carrying a load, walk the path to identify potential obstacles and slip hazards.
+
+--	Perform a Job Safety Analysis.
+
+--	Hold a toolbox talk at the job site to ensure all participants understand the steps, risks, and controls.
+
+--	Exercise Stop Work Authority if personnel, equipment, or the environment appear to be at risk.
+
+
+
+If all the following apply
+
+
+
+--	All involved personnel have completed this job before in similar conditions.
+
+--	There is no reasonable and foreseeable risk to personnel, equipment, or the environment that cannot be controlled with the “for every job, every time” controls on this card.
+
+--	No work permit is required.
+
+
+
+Use the prompts on this card to perform a Verbal JSA. Examples where a Verbal JSA might apply are cleaning, picking up tools, unloading supplies under 25 pounds, lubricating non-powered equipment, weighing mud.
+
+
+
+All other jobs require a documented, approved, JSA.
+
+Page 2 of 2
+
+
+
+
+
+
+
+
+

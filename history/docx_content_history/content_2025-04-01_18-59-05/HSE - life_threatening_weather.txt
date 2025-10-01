@@ -1,0 +1,221 @@
+----Image alt text---->Unit Drilling Company logo<----media/image1.png----
+
+Life Threatening Weather
+
+
+
+Policy
+
+
+
+Personnel have the right and responsibility to stop work if they experience heat stress or perceive others to be experiencing heat stress.
+
+
+
+Unit Drilling will provide drinking water for all personnel, Unit and third-party, working on the rig floor.
+
+
+
+Lightning at 30 miles
+
+
+
+Prepare to cease non-essential work.
+
+
+
+Lightning at 15 miles
+
+
+
+Cease non-essential work.
+
+
+
+Prepare to cease all work activities.
+
+
+
+Move non-essential personnel inside.
+
+
+
+Lightning at 10 miles
+
+
+
+Cease all work activities.
+
+
+
+Move all personnel inside.
+
+
+
+After an Evacuation
+
+
+
+The Rig Manager will create a Project-Inspection Report after returning from a weather-related evacuation and before restarting operations.
+
+
+
+After a Weather-Related Shutdown
+
+
+
+Site Personnel will perform a 15-minute inspection for weather-related damage before restarting operations.
+
+
+
+Procedure
+
+
+
+Severe Weather I – Storm Alert
+
+
+
+When a hurricane or named storm enters the Gulf of America or when other severe weather or tornadoes are forecast for the area around a working Unit rig or facility:
+
+
+
+1)	The VP of Operations will
+
+	a)	Monitor the state and progress of the storm.
+
+	b)	Determine when the remaining Phase I actions will be initiated.
+
+2)	The VP of Operations and Rig Superintendents will
+
+	a)	Coordinate with operators to develop a storm-preparedness plan
+
+		--	Review upcoming operations and attempt to avoid or reschedule operations which might delay securing the rig.
+
+		--	Identify steps to secure rigs and facilities against storm damage.
+
+		--	Identify steps to secure rigs and facilities against theft.
+
+		--	Identify steps to evacuate personnel and, if necessary, provide temporary living quarters.
+
+3)	Rig Managers and Facility Managers will
+
+	a)	Review the storm-preparedness plan with personnel.
+
+	b)	Remove or secure non-essential removable objects.
+
+	c)	Return non-essential rental equipment.
+
+Severe Weather II – Secure Well and Equipment
+
+1)	The VP of Operations will
+
+	a)	Determine when Phase II will be initiated.
+
+2)	Rig Managers and Facility Managers will
+
+	a)	Maintain a site roster.
+
+	b)	Secure tools, trucks, and equipment needed to secure the site and well.
+
+	c)	Remove non-essential personnel, equipment and material.
+
+3)	Rig Managers will
+
+	a)	Condition mud to maintain hole integrity.
+
+	b)	Secure the well.
+
+	c)	Secure the rig or facility.
+
+	d)	Shut in fuel supply where appropriate and fill all fuel tanks.
+
+	e)	Prepare documents and computers for evacuation.
+
+4)	Drillers will
+
+	a)	Install safety valve (and back pressure valve if no SSCV is used) and hang the drill pipe in the slips.
+
+	b)	Close and lock pipe rams.
+
+	c)	Close annular preventor.
+
+	d)	Close kill line and choke manifold valves.
+
+	e)	Secure mast and drill string.
+
+	f)	Secure block and all lines.
+
+5)	The VP of Operations will
+
+	a)	Determine if the mast should be laid down.
+
+Severe Weather III – Evacuation
+
+1)	The VP of Operations will
+
+	a)	Determine when Phase III will be initiated.
+
+2)	The Rig Manager or Facility Manger will
+
+	a)	Use site roster to ensure all personnel are properly evacuated.
+
+	b)	Release personnel.
+
+	c)	Carry out any remaining items in the storm-preparedness plan.
+
+	d)	Evacuate the site.
+
+	e)	Maintain contact with VP of Operations.
+
+After a Weather-Related Shutdown
+
+1)	Site Personnel will
+
+	a)	Perform a 15-minute inspection for weather-related damage before resuming full operations.
+
+2)	The Driller will
+
+	a)	Circulate the well or take other measures to prevent adverse hole conditions during this inspection.
+
+
+
+After a Weather-Related Evacuation
+
+
+
+1)	The Rig Manager will
+
+	a)	Perform a <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2dc">Post-Evacuation Inspection</a>.
+
+		--	challenges to site entry and egress
+
+		--	a thorough survey for damage to structures and equipment
+
+		--	potential damage to the environment
+
+		--	location and status of assigned personnel
+
+	b)	Follow the Exception Management process for any abnormal conditions.
+
+2)	The Rig Superintendent will
+
+	a)	Review the Project-Inspection Report.
+
+	b)	Provide documented approval for operations to resume.
+
+Page 2 of 2
+
+
+
+
+
+
+
+footnote1)	
+
+
+
+
+
+endnote1)	

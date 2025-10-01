@@ -1,0 +1,135 @@
+----Image alt text---->Unit Drilling Company logo<----media/image1.png----
+
+Incident Reporting
+
+
+
+Policy
+
+
+
+Call the Rig Superintendent immediately to report any well-control incident.
+
+
+
+Serious Incidents
+
+
+
+--	any injury requiring medical attention beyond basic first aid
+
+--	any unintentional fire
+
+--	any spill of fuel over 10 barrels
+
+--	any spill of drilling fluid over 40 barrels
+
+--	any spill or any kind into a navigable waterway
+
+--	any vehicle accident involving injury, other vehicles, or third-party property damage
+
+--	any property damage greater than $1000 estimated
+
+--	any illness that requires off-site medical attention or time off from work
+
+any dropped object where <a href="https://dropsmetaverse.org/drops-calculator/">the DROPS calculator</a> result is red
+
+any property damage over $1000 estimated
+
+
+
+Non-Serious Incidents
+
+
+
+--	any injury that does not qualify as a serious incident
+
+--	any spill that does not qualify as a serious incident
+
+--	any near miss not involving fire
+
+--	any vehicle incident that does not qualify as a serious incident
+
+--	any property damage less than $1000 estimated
+
+--	any illness that does not require off-site medical attention or time off from work
+
+--	any dropped object that does not qualify as a serious incident
+
+
+
+Procedure
+
+
+
+1)	Anyone witnessing or experiencing an incident will
+
+	a)	Immediately report the incident to their supervisor.
+
+	b)	Seek any first aid, emergency treatment, or non-emergency treatment as soon as possible.
+
+2)	Unit and 3rd-Party Supervisors will
+
+	a)	Immediately report incidents to the Unit Drilling Rig Manager.
+
+3)	The Rig Manager will
+
+	a)	Accompany ill and injured personnel for any off-site medical treatment.
+
+	b)	Coordinate post-incident drug and alcohol testing for any off-site medical treatment per UDC – SUBSTANCE ABUSE AND TESTING POLICY.
+
+4)	Rig Managers and Facility Managers will
+
+	a)	For serious incidents, notify the HSE Manager within 4 hours.
+
+	b)	For serious incidents, complete an Incident Report form in KPA within 4 hours.
+
+	c)	For non-serious incidents, notify the HSE Manager within 24 hours.
+
+	d)	For non-serious incidents, complete an Incident Report Form in KPA within 24 hours.
+
+		--	<a href="https://unitcorp.kpaehs.com/forms">Near Miss Report SAF-RIG-6.3</a>
+
+		--	<a href="https://unitcorp.kpaehs.com/forms">Supervisor’s First Report of Injury SAF-RIG-6.1</a>
+
+		--	<a href="https://unitcorp.kpaehs.com/forms">Non-Injury Incident Report Form SAF-RIG-6.1</a>
+
+		--	<a href="https://unitcorp.kpaehs.com/forms">Vehicle Accident Report Form RM-Veh-1.1</a>
+
+5)	The Risk Administrator will
+
+	a)	File a workers’ compensation claim for any work-related injury or illness beyond basic first aid. This is not left to the discretion of the employee or supervisor.
+
+6)	Senior Corporate Council will (per <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.7">29 CFR 1904.7</a>)
+
+	a)	Report any work-related fatality to OSHA within 8 hours.
+
+7)	The HSE Manager will (per <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.7">29 CFR 1904.7</a>)
+
+	a)	Make a final determination of whether an injury or illness is recordable.
+
+	b)	For a recordable injury or illness, complete and submit OSHA 301 Incident Report form within 7 days.
+
+	c)	Maintain an OSHA 300 log.
+
+	d)	Complete an annual OSHA 300-A report.
+
+8)	Unit President, VP of Operations, and HSE Manager will
+
+	a)	Review incoming incident forms.
+
+Page 2 of 2
+
+
+
+
+
+
+
+footnote1)	
+
+
+
+
+
+endnote1)	
