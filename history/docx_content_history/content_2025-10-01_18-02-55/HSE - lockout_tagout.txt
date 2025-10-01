@@ -28,7 +28,7 @@ Identify faulty or defective equipment with an Out of Service tag. Attach an Out
 
 
 
-Only qualified personnel will shut down, re-start, isolate, or bleed equipment.
+Do not shut down, re-start, isolate, or bleed equipment unless you have been trained to take these steps and evaluate the specific risks.
 
 
 
@@ -112,7 +112,7 @@ Isolation
 
 
 
-1)	A qualified person will
+1)	The person in charge of the isolation will
 
 	a)	Describe the isolation in detail
 
@@ -126,7 +126,7 @@ Isolation
 
 		--	how the isolation will be removed
 
-	b)	Submit the isolation details with a <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d4">Work Permit</a> for authorization.
+	b)	Submit the isolation details on <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d2">Job Safety Assessment</a> and <a href="https://unitcorp.kpaehs.com/rsc/67c4bf36d7480a0012d5a2d4">Work Permit</a>. (<a href="https://unitcorp.kpaehs.com/forms">Lockout/Tagout Verification Form SAF-RIG-7.5</a>) for authorization.
 
 2)	The Permit Authorized Person will
 
@@ -156,7 +156,7 @@ Isolation
 
 	b)	Attach an Out of Service tag to isolated equipment.
 
-4)	For an isolation lasting 120 hours or less, the Permit Authorized Person will
+4)	For an isolation lasting 120 hours or less, the Permit Authorized Person (on <a href="https://unitcorp.kpaehs.com/forms">Lockout/Tagout Verification Form SAF-RIG-7.5</a>, this person will be the ‘Senior Affected Employee’) will
 
 	a)	Place the isolation key in a secure lock box in the VFD house.
 
@@ -192,7 +192,7 @@ Shut Down Generators
 
 
 
-1)	A qualified person will
+1)	The person in charge of the isolation will
 
 	a)	Request and obtain an authorized Permit to Work.
 
@@ -214,7 +214,7 @@ Restart Generators
 
 
 
-1)	A qualified person will
+1)	The person in charge of the isolation will
 
 	a)	Request and obtain an authorized Permit to Work.
 

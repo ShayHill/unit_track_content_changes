@@ -103,73 +103,16 @@ HSE - forklifts_and_mobile_elevated_work_platforms	250904 18:51:14	do not operat
 HSE - rigging up and down	250904 18:51:14	only qualified personnel will operate cranes, cherry pickers, and other non-standard rig heavy equipment
 HSE - hoists	250904 18:55:41	do not ride a hoisted load
 HSE - rigging up and down	250904 19:27:48	open the breaker before removing a plug from a wire
-HSE - personal_protective_equipment	250930 16:20:55	merge language from NET workbook. No requirement changes.
-HSE - working_at_height	250930 16:26:09	update "qualified" to "trained"
-HSE - rigging up and down	250930 16:28:08	remove reference to cherry pickers
-HSE - forklifts_and_mobile_elevated_work_platforms	250930 17:14:18 specify that the RM will assign an evaluator
-HSE - light plants	250930 17:21:40	file added
-HSE - lockout_tagout	250930 17:37:49	only site supervisors and licensed contractors can work on electrical equipment
-HSE - bloodborne_pathogen_exposure_control	250930 17:56:30	#TODO
-HSE - bloodborne_pathogen_exposure_control	250930 19:01:36	#TODO
-HSE - bloodborne_pathogen_exposure_control	250930 19:29:51	#TODO
-HSE - bloodborne_pathogen_exposure_control	250930 19:35:57	#TODO
-HSE - bloodborne_pathogen_exposure_control	250930 19:39:47	#TODO
-HSE - bloodborne_pathogen_exposure_control	250930 19:42:52	#TODO
-HSE - bloodborne_pathogen_exposure_control	250930 19:45:01	#TODO
-HSE - bloodborne_pathogen_exposure_control	250930 19:46:26	#TODO
-HSE - air_operated_equipment	250930 20:10:47	file added
-HSE - bloodborne_pathogen_exposure_control	250930 20:10:47	file added
-HSE - blowout_prevention_equipment	250930 20:10:47	file added
-HSE - cell_phones_and_peds	250930 20:10:47	file added
-HSE - confined_space_entry	250930 20:10:47	file added
-HSE - confined_space_entry_gas_log	250930 20:10:48	file added
-HSE - contraband_and_drugs	250930 20:10:48	file added
-HSE - cpr_and_first_aid_preparedness	250930 20:10:48	file added
-HSE - emergency_response_plan	250930 20:10:48	file added
-HSE - emergency_response_plan_template	250930 20:10:48	file added
-HSE - exception_mangement	250930 20:10:48	file added
-HSE - fire_prevention_and_control	250930 20:10:48	file added
-HSE - forklifts_and_mobile_elevated_work_platforms	250930 20:10:48	file added
-HSE - general_fleet_safety	250930 20:10:48	file added
-HSE - grounding_and_bonding	250930 20:10:48	file added
-HSE - hand_tools	250930 20:10:48	file added
-HSE - hazard_communication	250930 20:10:48	file added
-HSE - hoists	250930 20:10:48	file added
-HSE - hot_work	250930 20:10:48	file added
-HSE - housekeeping	250930 20:10:49	file added
-HSE - hydrogen_sulfide_and_facial_hair	250930 20:10:49	file added
-HSE - incident_investigation	250930 20:10:49	file added
-HSE - incident_reporting	250930 20:10:49	file added
-HSE - job_safety_analysis-prompt_card	250930 20:10:49	file added
-HSE - job_safety_analysis	250930 20:10:49	file added
-HSE - ladder_safety-ladder_inspection_prompt	250930 20:10:49	file added
-HSE - ladder_safety	250930 20:10:49	file added
-HSE - life_threatening_weather-post_evacuation_inspection	250930 20:10:49	file added
-HSE - life_threatening_weather	250930 20:10:49	file added
-HSE - light plants	250930 20:10:49	file added
-HSE - lockout_tagout	250930 20:10:49	file added
-HSE - management_of_change	250930 20:10:49	file added
-HSE - manual_handling	250930 20:10:49	file added
-HSE - masts_and_substructures	250930 20:10:49	file added
-HSE - mud_pumps_and_equipment	250930 20:10:50	file added
-HSE - new_employee_and_visitor_orientation	250930 20:10:50	file added
-HSE - non_crane_rigging	250930 20:10:50	file added
-HSE - personal_protective_equipment	250930 20:10:50	file added
-HSE - pipe_racks_and_bins	250930 20:10:50	file added
-HSE - pipe_tongs_and_lines	250930 20:10:50	file added
-HSE - pressure_testing	250930 20:10:50	file added
-HSE - pre_use_inspection	250930 20:10:50	file added
-HSE - pulling_out_of_the_hole	250930 20:10:50	file added
-HSE - rigging up and down	250930 20:10:50	file added
-HSE - rig_safety_inspections	250930 20:10:50	file added
-HSE - rotary_table_area	250930 20:10:50	file added
-HSE - safety_meetings	250930 20:10:50	file added
-HSE - safety_signs	250930 20:10:50	file added
-HSE - sanitation_and_hygiene	250930 20:10:51	file added
-HSE - stop_work_authority	250930 20:10:51	file added
-HSE - testing_live_equipment	250930 20:10:51	file added
-HSE - training_verification	250930 20:10:51	file added
-HSE - well_control	250930 20:10:51	file added
-HSE - working_at_height-justification_mud_pit_handrails	250930 20:10:51	file added
-HSE - working_at_height	250930 20:10:51	file added
-HSE - work_permit	250930 20:10:51	file added
+HSE - blowout_prevention_equipment	2025-10-01_18-02-55	format: remove blank lines in header and footer
+HSE - cpr_and_first_aid_preparedness	2025-10-01_18-04-15	requirements and qualifications to perform a rescue
+HSE - forklifts_and_mobile_elevated_work_platforms	2025-10-01_18-06-02
+the Rig Manager will assign an evaluator for forklift / MEWP
+HSE - hot_work	2025-10-01_18-08-04	only contractors will operate welding equipment
+HSE - hot_work	2025-10-01_18-08-04	only trained personnel will perform atmospheric testing
+HSE - light plants	2025-10-01_18-09-36	file added
+HSE - lockout_tagout	2025-10-01_18-09-36	only trained personnel will shut down, re-start, or bleed equipment
+HSE - lockout_tagout	2025-10-01_18-09-36	only RM, shop supervisor, or above will work on electrical equipment or splice / cut wire
+HSE - personal_protective_equipment	2025-10-01_18-11-19	Unit will provide earmuffs and N95 dust masks
+HSE - rigging up and down	2025-10-01_18-12-34	turn off a breaker before removing plugs on electrical lines
+HSE - rigging up and down	2025-10-01_18-12-34	do not operate aerial lifts unless trained to do so
+HSE - working_at_height	2025-10-01_18-13-59	require documented training to work at height
